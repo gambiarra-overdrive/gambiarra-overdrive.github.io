@@ -26,7 +26,9 @@ Investigating this sub_17e0 function we see that it has a lot of deep nested con
       <pubDate>Sun, 28 Apr 2024 19:18:00 -0300</pubDate>
       
       <guid>http://localhost:1313/writeups/umdctf-2024-donations-fixed/</guid>
-      <description>TODO</description>
+      <description>This is the harder version of donations, it&amp;rsquo;s the same challenge, but you can&amp;rsquo;t donate negative amounts this time.
+After playing with it for a while, I realized that the solution was probably to find a way to donate money to your user, bypassing that Jeff Bezos check. So I tested adding more user id&amp;rsquo;s in the to parameter and the money went to them.
+So the solution was to create users, and donate all of their money to a user which will retrieve the flag.</description>
       
     </item>
     
@@ -36,7 +38,10 @@ Investigating this sub_17e0 function we see that it has a lot of deep nested con
       <pubDate>Sun, 28 Apr 2024 18:57:47 -0300</pubDate>
       
       <guid>http://localhost:1313/writeups/umdctf-2024-donations/</guid>
-      <description>TODO</description>
+      <description>After downloading and prettifying the javascript code we see that there&amp;rsquo;s a /api/flag and a /api/donate endpoints.
+The flag route returns:
+{&amp;#34;detail&amp;#34;:&amp;#34;only the wealthy may view the treasure...&amp;#34;} After trying some things that didn&amp;rsquo;t work, I went to the donate functionality. Using the parameters that I found in the javascript I is playing with this funcionality and noticed that you can only donate to a specific user
+{&amp;#34;detail&amp;#34;:&amp;#34;you may only donate to Jeff Bezos&amp;#34;} And somehow that Jeff Bezos&amp;rsquo;s id is lisanalgaib</description>
       
     </item>
     

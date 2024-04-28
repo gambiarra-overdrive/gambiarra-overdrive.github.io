@@ -36,7 +36,7 @@ Investigating this sub_17e0 function we see that it has a lot of deep nested con
       <pubDate>Sun, 28 Apr 2024 18:57:47 -0300</pubDate>
       
       <guid>http://localhost:1313/writeups/umdctf-2024-donations/</guid>
-      <description>TODO</description>
+      <description>After downloading and prettifying the javascript code we see that there&amp;rsquo;s a /api/flag and a /api/donate endpoints.</description>
       
     </item>
     
