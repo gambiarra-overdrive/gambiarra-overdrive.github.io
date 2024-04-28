@@ -1,0 +1,7 @@
+[[main]]
+    name = "about"
+    pageRef = "about"
+
+[[main]]
+    name = "writeups"
+    pageRef = "writeups"

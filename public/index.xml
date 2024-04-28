@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gambiarra Overdrive</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Gambiarra Overdrive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>umdctf2024 - cmsc430</title>
+      <link>http://localhost:1313/writeups/umdctf-2024-cmsc430/</link>
+      <pubDate>Sun, 28 Apr 2024 19:19:27 -0300</pubDate>
+      
+      <guid>http://localhost:1313/writeups/umdctf-2024-cmsc430/</guid>
+      <description>Description # This binary was compiled by an hand-crafted, artisan racket compiler, courtesy of UMD&amp;rsquo;s very own CMSC430 class.
+Reversing # The attachment was an standard x64 ELF file. After opening it in my decompiler, and going to the main function, everything seemed pretty straight.
+Investigating this sub_17e0 function we see that it has a lot of deep nested conditionals, where in each step it calls read_byte() and then compares it to a byte.</description>
+      
+    </item>
+    
+    <item>
+      <title>umdctf2024 - Donations Fixed</title>
+      <link>http://localhost:1313/writeups/umdctf-2024-donations-fixed/</link>
+      <pubDate>Sun, 28 Apr 2024 19:18:00 -0300</pubDate>
+      
+      <guid>http://localhost:1313/writeups/umdctf-2024-donations-fixed/</guid>
+      <description>TODO</description>
+      
+    </item>
+    
+    <item>
+      <title>umdctf2024 - Donations</title>
+      <link>http://localhost:1313/writeups/umdctf-2024-donations/</link>
+      <pubDate>Sun, 28 Apr 2024 18:57:47 -0300</pubDate>
+      
+      <guid>http://localhost:1313/writeups/umdctf-2024-donations/</guid>
+      <description>TODO</description>
+      
+    </item>
+    
+  </channel>
+</rss>

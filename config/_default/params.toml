@@ -1,0 +1,29 @@
+colorScheme = "fire"
+
+defaultBackgroundImage = "kali-wall.png"
+#defaultFeaturedImage = "eoe.png"
+highlightCurrentMenuArea = true
+enableCodeCopy = true
+
+footer.showCopyright = false
+footer.showThemeAttribution = false
+
+header.layout = "fixed"
+
+[homepage]
+layout = "background"
+showRecent = true
+cardView = true
+layoutBackgroundBlur = true
+showRecentItems = 9
+
+
+[article]
+showAuthor = false
+showWordCount = false
+showTableOfContents = true
+heroStyle = "background"
+showHero = true
+layoutBackgroundBlur = true
+showTaxonomies = true
+showDateUpdated = true
